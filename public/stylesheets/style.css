@@ -1,8 +1,102 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d4cbcb;
 }
 
 a {
   color: #00B7FF;
 }
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo{
+  background-color: rgba(136, 20, 20, 0.685);
+  padding: 1em;
+  text-align: center;
+  width: 70%;
+  margin: 2em;
+  border-radius: 2em;
+}
+
+.cabezeras{
+  margin: 1em 2em;
+}
+
+.cajas{
+  border: 0;
+  border-radius: 5em;
+  background-color: rgb(240, 248, 255);
+  padding: 1em;
+}
+
+.submit{
+  padding: 0.6em 1em;
+  font-size: 1.3em;
+  border-radius: 5em;
+  background-color: #00B7FF;
+  transition: all 1s;
+  border: 0;
+}
+
+.submit:hover{
+  background-color: rgb(29, 226, 3);
+  transition: all 1s;
+}
+
+.tabla{
+  width: 80%;
+  border: 1px solid #2c2c2c5b;
+  border-radius: 2em;
+  margin: 2em;
+  padding: 2em;
+}
+.cabezaTabla{
+  width: 100%;
+}
+
+.cuerpoTabla td{
+  border: 1px solid #2c2c2c5b;
+  border-radius: 5em;
+  padding: 0.5em;
+}
+
+.datos{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.opciones{
+  display: flex;
+  justify-content: space-around;
+}
+
+.update{
+  transition: all 0.5s;
+  color: green;
+  font-size: 1.5em;
+}
+
+.update:hover{
+  transition: all 0.5s;
+  color: rgb(1, 48, 1);
+  font-size: 1.5em;
+}
+
+.delete{
+  transition: all 0.5s;
+  color: red;
+  font-size: 1.5em;
+}
+
+.delete:hover{
+  transition: all 0.5s;
+  color: rgb(70, 4, 4);
+}
+
