@@ -2,7 +2,7 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #d4cbcb;
+  background-color: #9e9c9c;
 }
 
 a {
@@ -72,6 +72,11 @@ a {
   font-size: 1.2em;
 }
 
+.datos.input input{
+    background-color: transparent;
+    border: 0;
+}
+
 .opciones{
   display: flex;
   justify-content: space-around;
@@ -89,6 +94,18 @@ a {
   font-size: 1.5em;
 }
 
+.save{
+  transition: all 0.5s;
+  color: green;
+  font-size: 1.5em;
+}
+
+.save:hover{
+  transition: all 0.5s;
+  color: rgb(1, 48, 1);
+  font-size: 1.5em;
+}
+
 .delete{
   transition: all 0.5s;
   color: red;
@@ -98,5 +115,17 @@ a {
 .delete:hover{
   transition: all 0.5s;
   color: rgb(70, 4, 4);
+}
+
+.cancel{
+  transition: all 0.5s;
+  color: red;
+  font-size: 1.5em;
+}
+
+.cancel:hover{
+  transition: all 0.5s;
+  color: rgb(70, 4, 4);
+  font-size: 1.5em;
 }
 
